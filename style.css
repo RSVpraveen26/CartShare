@@ -1,0 +1,33 @@
+/* Custom Dashboard Styles */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-app {
+    display: none;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Print Media Styling for Clean Audit-Ready Receipts */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #receiptSection, #receiptSection * {
+        visibility: visible;
+    }
+    #receiptSection {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: white !important;
+    }
+    .no-print {
+        display: none !important;
+    }
+}
