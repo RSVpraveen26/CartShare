@@ -16,4 +16,4 @@ A real-time collaborative shopping cart web application built for shared living 
 ## 💻 How to Run Locally
 1. Clone the repository to your local machine:
    ```bash
-   git clone [https://github.com/RSVpraveen26/CartShare.git](https://github.com/RSVpraveen26/CartShare.git)
+   git clone https://github.com/RSVpraveen26/CartShare.git
